@@ -1,0 +1,611 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+padding: 0px;
+}
+.container{
+    width:100%;
+    margin: auto;
+    background-image: linear-gradient(rgb(82, 80, 80), rgb(255, 255, 255));
+   overflow: hidden;
+   overflow: auto;
+   margin-top: 0px;
+ 
+
+}
+.home{
+    background-image: url(../images/معارض-سيارات.png);
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+
+}
+.home_overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0, 0, .4)
+
+}
+.content{
+    width: 40%;
+ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.title{
+font-size: 55px;
+color: rgb(166, 167, 169);
+text-transform: capitalize;
+}
+.par{
+    color: rgb(228, 215, 215);
+    margin: 0px 16px;
+    letter-spacing: 3px;
+}
+.btn1{
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: darkgray;
+    color: beige;
+    margin: 10px 30px;
+    font-size: 15px;
+    text-transform: capitalize;
+    word-spacing: 2px;
+    border: none;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color:rgba(0,0, 0, .6);
+}
+.btn2{
+    width:150px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: darkgray;
+    color: beige;
+    margin: 10px 30px;
+    font-size: 15px;
+    text-transform: capitalize;
+    word-spacing: 2px;
+    border: none;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color:rgba(0,0, 0, .6);
+}
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(27, 29, 31);
+   position: absolute;
+    top: 0;
+    left: 0;
+ overflow:auto;
+ position: fixed;
+ z-index: 999;
+
+}
+.logo{
+    width: 90;
+    height: 60;
+ margin:0px 90px;
+ float: left;
+}
+ul{
+    list-style-type: none;
+}
+.li1{
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 20;
+    padding: 5px;
+    text-transform: capitalize}
+.li1 a{
+color: rgba(255, 255, 255, 0.673);
+text-decoration: none;
+}
+.welcome{
+    font-size: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    color:rgb(178, 181, 184);
+    margin-top: 30px;
+}
+.line{
+    width: 100px;
+    height: 5px;
+    background-color: rgb(145, 141, 141);
+   margin: auto;
+   margin-top: 50px;
+}
+
+.car_item{
+    background-color: rgba(255, 255, 255, 0.818);
+    width: 20%;
+    float: left;
+    margin: auto;
+    margin-left: 45;
+    margin-bottom: 40px;
+    margin-top: 15;
+    padding: 18px 16px;
+    text-align: center;
+    position: relative;
+    padding: 10px 10px;
+}
+.car_item:hover{
+    background-color:aliceblue;
+}
+.mg {
+    margin: 0px  3%;
+}
+.pic_car{
+    margin: auto;
+    width: 70%;
+    position: relative;
+}
+.pic_car img{
+    width: 100%;
+}
+
+.infocar h3{
+    margin: auto;
+    padding: 10px;
+    text-transform: uppercase;
+  color: #000;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.car_overlay{
+    position: absolute;
+    top: 0; 
+   right: 0;
+   left: 0;
+   bottom: 0;
+   background-color: rgba(181, 175, 175, 0.297) ;
+   visibility: hidden ;
+   opacity: 0 ; 
+} 
+.car_overlay button{
+    margin-top: 160px;
+    padding: 0px 5px;
+    width: 90px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: gray;
+    color:  beige;
+
+}
+.car_overlay a{
+color: rgb(201, 201, 169);
+text-transform: capitalize;
+}
+   .car_item:hover  .car_overlay {
+    visibility: visible ;
+    opacity: 0.5 ;
+   }
+   .car_item:before {
+    content: "";
+    position: absolute;
+
+    width:0 ;
+    height: 0  ;
+   
+    bottom  : 0 ;
+    right : 0 ;
+
+    background-color: rgba(164, 160, 160, 0.5);
+    opacity:0 ;
+}
+.car_item:hover::before {
+   width:100%;
+   height: 100%;
+   transition: 2s ;
+   opacity: 0.6 ;
+}
+.vip{
+    font-size: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    color:rgb(192, 194, 197);
+    margin-top: 30px;
+}
+.lin1{
+    width: 100px;
+    height: 5px;
+    background-color: rgb(185, 184, 184);
+   margin: auto;
+   margin-top: 50px;
+}
+.contanier1{
+    width:100%;
+    margin: auto;
+    background-image: linear-gradient(rgb(14, 12, 12), rgb(255, 255, 255));
+   overflow: hidden;
+   overflow: auto; 
+   margin-top: 0px;
+}
+.content1{
+
+}
+.car_item1{
+    background-color: rgba(255, 255, 255, 0.818);
+    width: 25%;
+    float: left;
+    margin: auto;
+    margin-left: 90px;
+    margin-top: 40px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 40px}
+.car_item1:hover{
+    background-color: rgb(243, 243, 243);
+}
+.mg {
+    margin: 0px  3%;
+}
+.pic_car1{
+    margin: auto;
+    width: 70%;
+    position: relative;
+}
+.pic_car1 img{
+    width: 100%;
+}
+
+.infop {
+    margin: auto;
+    padding: 10px;
+    text-transform: uppercase;
+  color: #000;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.car_overlay1{
+    position: absolute;
+    top: 0; 
+   right: 0;
+   left: 0;
+   bottom: 0;
+   visibility: hidden ;
+   opacity: 0 ; 
+} 
+.car_item1:hover  .car_overlay1 {
+    visibility: visible ;
+    opacity: 0.3 ;
+   }
+.car_overlay1 button{
+    margin-top: 190px;
+    width: 90px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+ color:  rgba(255, 252, 249, 0.699);
+
+}
+.car_overlay1 a{
+
+text-transform: uppercase;
+font-size: large;
+}
+   .car_item:hover  .car_overlay {
+    visibility: visible ;
+    opacity: 0.5 ;
+   }
+   .car_item1::after {
+    content: "";
+    position: absolute;
+
+    width:0 ;
+    height: 0  ;
+   
+    bottom  : 0 ;
+    right : 0 ;
+
+    background-color: rgba(212, 207, 207, 0.5);
+    opacity:0 ;
+}
+.car_item1:hover::after {
+   width:100%;
+   height: 100%;
+   transition: 3s ;
+   opacity: 0.6 ;
+
+}
+.service{
+    font-size: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    color:rgb(207, 211, 215);
+    margin-top: 30px;
+}
+.parent{
+    margin: auto;
+    width: 100%;
+}
+.container2{
+    width:100%;
+background-image: url(../images/خليفه.jpeg);
+   overflow: hidden;
+   overflow: auto; 
+   margin-top: 0px;
+   margin-bottom:0px;
+
+}
+.div1{
+  width: 30%;
+  height: 300;
+  color: rgb(233, 231, 230);
+    background-color:rgba(128, 125, 125, 0.46);
+    text-align: center;
+    border-radius: 9px;
+float: left;
+margin:20px;
+padding: 5px;
+position: relative; }
+.div1:hover{
+    background-color: #000;
+    color:rgb(155, 155, 135);
+
+  }
+.d{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.des{
+    text-transform: capitalize;
+    word-spacing: 2px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ul1{
+    list-style-type: square;
+    margin: auto;
+    padding: 10px
+}
+.in{
+    margin-top: 10px;
+    text-transform: capitalize;
+    margin-left: 9;}
+.container3{
+    width:100%;
+    margin: auto;
+   overflow: hidden;
+   overflow: auto; 
+   margin-top: 0px;
+   background-image: linear-gradient(rgb(129, 137, 137), rgb(46, 46, 46));
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.parent1{
+
+}
+.offer{
+    font-size: 80;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(255 255 255 / 67%);
+    margin-top: 90;
+    padding: 10px;
+   
+}
+
+.b1:hover{
+    background-color: #fff;
+    color: #000;
+}
+.of{
+    margin: 20px 0;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    border-radius: 50px;
+    margin:auto;
+    color: rgb(255, 254, 254);
+    text-align: center;
+    margin: 15px auto;
+}
+.circle h2{
+    font-size: 30px;
+    text-align: center;
+margin: auto;
+}
+.div2{
+    width: 20%;
+    height: 400px;
+    /* color: #161515; */
+    background-color: rgb(129 137 137);
+    border-radius: 16px;
+    float: left;
+    margin: auto;
+    /* text-align: center; */
+    margin: 100px;
+    position: relative;
+}
+.div2:before {
+    content: "";
+    position: absolute;
+
+    width:0 ;
+    height: 0  ;
+   
+    bottom  : 0 ;
+    right : 0 ;
+
+    background-color: #000;
+    color:#fff;
+    opacity:0 ;
+}
+.div2:hover::before {
+   width:100%;
+   height: 100%;
+   transition: 3s ;
+   opacity: 0.6 ;}
+
+.item{
+text-align: center;
+text-transform: capitalize;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+}
+.b1{
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: rgb(3, 2, 2);
+    color: azure;
+    margin: 9px 70;
+}
+.container4{
+    width:100%;
+    margin: auto;
+   overflow: hidden;
+   overflow: auto; 
+   background-image: linear-gradient(rgb(160, 160, 160), rgb(18, 18, 18));
+}
+.container4:hover{
+    background-color: rgb(96, 92, 92);
+    color: rgb(54, 55, 56);
+}
+.explain{
+width: 100%;
+margin: auto;
+}
+.explain:hover{
+    color: azure;
+}
+.explain h3{
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-top: 100px;
+    padding: 0px 16px;
+    word-spacing: 5px;
+    color:rgb(255, 255, 252);
+    text-align: center;
+}
+.p1{
+font-size: 30px;
+text-transform: capitalize;
+word-spacing: 3px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-top: 80px;
+color: rgb(239, 230, 230);;
+}
+.ul2{
+    list-style-type: circle;
+    padding: 20px;
+}
+.li2{
+    margin-left: 30px;
+    margin: auto;
+    margin-right: 950;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+margin-top: 40px;
+color:aliceblue;} 
+
+.our{
+    font-size: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    color:slategrey;
+    margin-top: 70px;
+    padding: 0px 17px;
+    margin: ;
+}
+.lin3{
+    width: 100px;
+    height: 5px;
+    background-color: rgb(96, 93, 93);
+   margin: auto;
+   margin-top: 10px;
+}
+.container5 {
+    width: 80%;
+    margin: auto;
+}
+.team-content {
+
+}
+.team-item {
+    float: left;
+    background-color: rgb(211, 210, 210);
+    width: 28%;
+    padding: 18px  16px;
+    text-align: center;
+    position: relative;
+}
+.mg {
+    margin: 0px  3%;
+}
+.team-img {
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+.team-img  img {
+    width: 100%;
+}
+.team-overlay {
+    position: absolute;
+     top: 0; 
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: black ;
+    opacity: 0.5;   
+
+    visibility: hidden ;
+    opacity: 0 ;
+}
+
+.team-item:hover  .team-overlay {
+    visibility: visible ;
+    opacity: 0.5 ;
+}
+.team-overlay i {
+    display: block;
+    line-height: 40px  ;
+}
+.team-overlay  a {
+    display: block;
+    width:40px;
+    height: 40px;
+    background-color: rgb(54, 55, 55);
+    color: #fff;
+    margin-left: auto ;
+}
+.team-info-title {
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.team-item:after {
+    content: "";
+    position: absolute;
+
+    width:0 ;
+    height: 0  ;
+   
+    top : 0 ;
+    left : 0 ;
+
+    background-color: rgba(48, 44, 44, 0.5);
+    opacity: 0 ;
+}
+.team-item:hover::after {
+   width:100%;
+   height: 100%;
+   transition: 2s ;
+   opacity:0.6;
+}
